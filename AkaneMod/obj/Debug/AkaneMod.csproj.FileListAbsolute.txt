@@ -1,0 +1,8 @@
+F:\Programme\AkaneMod\AkaneMod\AkaneMod\obj\Debug\AkaneMod.csproj.AssemblyReference.cache
+F:\Programme\AkaneMod\AkaneMod\AkaneMod\obj\Debug\AkaneMod.csproj.CoreCompileInputs.cache
+F:\Programme\AkaneMod\AkaneMod\AkaneMod\bin\Debug\AkaneMod.dll
+F:\Programme\AkaneMod\AkaneMod\AkaneMod\bin\Debug\AkaneMod.pdb
+F:\Programme\AkaneMod\AkaneMod\AkaneMod\obj\Debug\AkaneMod.dll
+F:\Programme\AkaneMod\AkaneMod\AkaneMod\obj\Debug\AkaneMod.pdb
+G:\SteamLibrary\steamapps\common\Akane\akane_win64\BepInEx\plugins\AkaneMod.dll
+G:\SteamLibrary\steamapps\common\Akane\akane_win64\BepInEx\plugins\AkaneMod.pdb
