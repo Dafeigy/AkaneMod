@@ -31,6 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>G:\SteamLibrary\steamapps\common\Akane\akane_win64\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>G:\SteamLibrary\steamapps\common\Akane\akane_win64\Akane_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="BepInEx">
       <HintPath>G:\SteamLibrary\steamapps\common\Akane\akane_win64\BepInEx\core\BepInEx.dll</HintPath>
       <Private>False</Private>
@@ -47,6 +55,10 @@
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>G:\SteamLibrary\steamapps\common\Akane\akane_win64\Akane_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>G:\SteamLibrary\steamapps\common\Akane\akane_win64\Akane_Data\Managed\UnityEngine.InputModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
