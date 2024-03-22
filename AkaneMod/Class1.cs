@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 using BepInEx;
 using UnityEngine;
 using BepInEx.Configuration;
 using HarmonyLib;
 using System.Net.Sockets;
+using System.Reflection;
 
 namespace AkaneMod
 {
@@ -29,17 +27,23 @@ namespace AkaneMod
             Logger.LogInfo("Configuration Done."); // Better use this to print log.
 
             Harmony.CreateAndPatchAll(typeof(AkaneMod));
+
+            var harmony = new Harmony("com.yourcompany.yourplugin");
+            harmony.PatchAll();
+
+
         }
 
         void Update()
         {
+
             if (Input.GetKeyDown(hotkey.Value))
             {
                 Logger.LogInfo("G is pressed");
+               
             }
-
         }
-
+        
 
         // Regular Enemy Position
         [HarmonyPostfix, HarmonyPatch(typeof(EnemyRegular), "Move")]
